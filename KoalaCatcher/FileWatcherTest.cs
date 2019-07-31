@@ -34,9 +34,9 @@ namespace KoalaCatcherTest
 			CheckFiles("","*.txt");
 			CheckFiles("","*.csv");
 			CheckFiles(Path.GetTempPath(), "*.txt");
-			CheckFiles("\\\\guppy\\pub\\spencer\\","");
-			Directory.SetCurrentDirectory("C:\\users");
-			CheckFiles("Spencer","");
+			//CheckFiles("\\\\guppy\\pub\\spencer\\","");
+			//Directory.SetCurrentDirectory("C:\\users");
+			//CheckFiles("Spencer","");
 			
 		}
 

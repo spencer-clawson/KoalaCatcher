@@ -52,11 +52,12 @@ namespace KoalaCatcher
 			if (!System.IO.Directory.Exists(Directory)) return $"Can not access {Directory}, or it does not exist.";
 
 			if (_checking) return string.Empty;  //if the check takes long time we don't want to keep firing up threads before it's completed
-			_checking = true;
 			
 			var threads = new List<Thread>();
 			var result = new StringBuilder();
 		
+			_checking = true;
+
 			try
 			{
 				//check for new or modified files
