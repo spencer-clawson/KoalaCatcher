@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KoalaCatcher", "KoalaCatcher\KoalaCatcher.csproj", "{827BE2A2-D4D3-4CBC-8EE5-1A7742D9F984}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{827BE2A2-D4D3-4CBC-8EE5-1A7742D9F984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827BE2A2-D4D3-4CBC-8EE5-1A7742D9F984}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827BE2A2-D4D3-4CBC-8EE5-1A7742D9F984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827BE2A2-D4D3-4CBC-8EE5-1A7742D9F984}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC430F74-9E54-46ED-9AFC-91664C3B8E5B}
+	EndGlobalSection
+EndGlobal
